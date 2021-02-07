@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Work with new form</title>
+</head>
+
+<body>
+    <form action="#" method="POST" enctype="multipart/form-data">
+
+        <div>
+            <p>Name</p>
+            <input type="text" name="username" autocomplete="off">
+        </div>
+
+        <div>
+            <p>Password</p>
+            <input type="password" name="pass" >
+        </div>
+
+        <div>
+            <p>Phone</p>
+            <input type="tel" name="phone">
+        </div>
+
+        <div>
+            <p>Gender</p>
+            <div>
+                 <input type="radio" name="gender" value="male" checked> Male
+            </div>  
+
+            <div>
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+        </div>
+
+        <div>
+
+            <p>Estate</p>
+
+            <div>
+                <input type="checkbox" name="bicycle" value="yes" checked> Bicycle
+            </div>
+
+            <div>
+                <input type="checkbox" name="car" value="yes"> Car
+            </div>
+
+            <div>
+                <input type="checkbox" name="apartment" value="yes"> Apartmemt
+            </div>
+        </div>
+
+        <div>
+            <p>Additional information</p>
+            <div>
+                    <textarea name="info"  cols="15" rows="2"></textarea>
+            </div>
+
+        </div>
+
+        <div>
+            <p>Pin photo</p>
+
+            <div>
+                    <input type="file" name="photo">
+            </div>
+        </div>
+
+        <div>
+            <p>Favorite color</p>
+            <div>
+                <select name="color">
+                    <option value="red">Red</option>
+                    <option value="violet">Violet</option>
+                    <option value="black">Black</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <p>Action</p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

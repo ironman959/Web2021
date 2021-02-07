@@ -1,0 +1,23 @@
+span {
+    font-size: 20px;
+    color:cornflowerblue;
+
+}
+
+span.light-blue {
+    font-weight: bolder;
+    background-color: black;
+
+}
+
+.light-blue{
+    font-size: 25px;
+    color:chartreuse;
+}
+
+.block>p {
+
+    color:darkcyan;
+    font-size: 30px;
+}
+

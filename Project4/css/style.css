@@ -1,0 +1,62 @@
+p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.arial{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.fonts30{
+    font-size: 40px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font700 {
+    font-weight: 700;
+}
+
+.color {
+    color: cyan;
+}
+
+.textalign {
+    text-align: center;
+}
+
+.decoration {
+    text-decoration: underline;
+}
+
+.shadow{
+    text-shadow: 2px -2px 2px yellow;
+    
+}
+
+.transform {
+
+    text-transform: lowercase;
+}
+
+.wspace{
+    word-spacing: 20px;
+}
+
+.lspace{
+    letter-spacing: 5px;
+}
+
+.indent{
+    text-indent: 50px;
+}
+
+.whitesp{
+    white-space: nowrap;
+}
+
+.lih{
+    line-height: 70px;
+}

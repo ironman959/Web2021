@@ -1,0 +1,20 @@
+
+.block1{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px -3px 10px 1px fuchsia;
+    margin: 50px;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+    
+}
+
+.block-img{
+   width: 1775px;
+   height: 1100px;
+   border: 1px solid black;
+   background: url(./RGB_24bits_palette_R0.png) 100% 0% no-repeat;
+   
+}

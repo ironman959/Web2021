@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+.example-block1{
+    padding: 20px;
+    margin: 20px 30px 30px 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 500px;
+    display: block;
+}
+
+.example-block2{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    color: black;
+    border: 1px solid grey;
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: 20px;   
+    max-height: 290px;
+    overflow: auto;
+  
+}
+
+.example-block3{
+    font-size: 50px;
+    margin: 35px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 9px -10px 10px 1px black;
+    visibility: visible;
+}

@@ -1,0 +1,27 @@
+ul{
+    list-style: none;
+}
+
+body{
+    padding: 30px;
+}
+
+.list{
+    font-size: 15px;
+}
+
+.list li{
+    margin: 0 0 15px 0;
+    position: relative;
+    padding: 0 0 0 32px;
+}
+
+.list   li::before{
+    content: "";
+    background: url(./check.png) 0 0 no-repeat;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    left: 0;
+}

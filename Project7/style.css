@@ -1,4 +1,7 @@
 
+body{
+    border:none;
+}
 .block1{
     width: 500px;
     height: 300px;
@@ -15,6 +18,84 @@
    width: 1775px;
    height: 1100px;
    border: 1px solid black;
-   background: url(./RGB_24bits_palette_R0.png) 100% 0% no-repeat;
+   background: url(./RGB_24bits_palette_R0.png) 50% 50% no-repeat;
    
+}
+
+.block p{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 100px 20px 50px;
+}
+
+.link{
+    color:red;
+}
+
+.input-text:focus{
+    outline: none;
+    box-shadow: 0 0 10px gray;
+   
+
+
+}
+.input-text{
+    border: 1px solid gray;
+    height: 20px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 3px;
+
+
+
+}
+
+.submit-button{
+    display: block;
+    height: 40px;
+    width: 218px;
+    margin: 10px 1px;
+    background-color:lightslategrey;
+    font-size: 16px;
+    color: lightyellow;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.list li{
+    margin: 15px;
+    font-size: 15px;
+}
+
+.link:visited{
+    color:darkorchid;
+    
+
+}
+.link:hover{
+    text-decoration: none;
+    color:cyan;
+}
+
+.link:active{
+    color:steelblue
+}
+
+.list li:first-child{
+    color:indigo;
+    list-style: none;
+}
+
+.list li:last-child{
+    color:red;
+}
+
+.block p:nth-child(odd){
+    display: inline-block;
+    border: 1px solid red;
+}
+
+.block p:nth-child(even) {
+    background-color: yellow;
 }
